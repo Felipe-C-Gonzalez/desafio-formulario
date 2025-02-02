@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../image/bg-repeat.jpg);
+    background-size: contain;
+    font-size: 62.5%;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.info {
+    width: 100%;
+    max-width: 458px;
+    margin: 0 20px;
+    color: hsl(0, 0%, 100%);
+}
+
+.info .title {
+    margin-bottom: 11px;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.info .doubts {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.card {
+    padding: 15px;
+    width: 100%;
+    max-width: 340px;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 20px
+}
+
+.card .input-text {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: 1.5px solid hsl(0, 0%, 0%);
+    width: 100%;
+    max-width: 298px;
+}
+
+.card .name,
+.card .email,
+.card .telephone,
+.card .message {
+    font-weight: normal;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 298px;
+}
+
+.card .message {
+    height: 100px;
+}
+
+.card .mandatory-completion {
+    display: none;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: -15px;
+    margin-bottom: 5px;
+    color: hsl(0, 91%, 57%);
+}
+
+.card .required-fields {
+    width: 100%;
+    max-width: 330px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 17.58px;
+    text-align: left;
+    color: hsl(0, 0%, 0%);
+}
+
+.card .btn-toSend {
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 100%;
+    max-width: 298px;
+    height: 41.13px;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    background: hsl(151, 59%, 52%);
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn-toSend:hover {
+    background-color: hsl(133, 100%, 38%);
+}
+
+.without-fill {
+    border: 2px solid hsl(0, 91%, 57%) !important;
+}
+
+.filled {
+    border: 2px solid hsl(133, 100%, 38%) !important;
+}

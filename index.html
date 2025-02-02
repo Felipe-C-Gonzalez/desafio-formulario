@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <title>Desafio Formulário</title>
+</head>
+
+<body>
+    <main>
+        <div class="info">
+            <h1 class="title">FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h1>
+            <p class="doubts">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em
+                contato em menos de 24h.</p>
+        </div>
+
+        <div class="card">
+            <form action="/toSend" method="post">
+                <input type="text" class="input-text name" placeholder="Nome completo *">
+                <p class="mandatory-completion">campos obrigatório</p>
+
+                <input type="email" class="input-text email" name="email" placeholder="Email *">
+                <p class="mandatory-completion">campos obrigatórios</p>
+
+                <input type="tel" class="input-text telephone" placeholder="Telefone *">
+                <p class="mandatory-completion">campos obrigatórios</p>
+
+                <textarea class="input-text message" placeholder="Mensagem *"></textarea>
+                <p class="mandatory-completion">campos obrigatórios</p>
+
+                <p class="required-fields">*campos obrigatórios</p>
+
+                <button type="button" class="btn-toSend">Enviar</button>
+            </form>
+        </div>
+
+    </main>
+    <script src="./src/js/style.js"></script>
+</body>
+
+</html>
