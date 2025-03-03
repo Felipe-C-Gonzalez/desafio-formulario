@@ -1,0 +1,161 @@
+@media(max-width: 1024px) {
+
+    main {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .info {
+        width: 100%;
+        max-width: 458px;
+        margin: 0 20px;
+    }
+
+    .info .title {
+        font-size: 1.8rem;
+    }
+
+    .info .doubts {
+        font-size: 1.3rem;
+    }
+
+    .card {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .card .input-text,
+    .card .btn-toSend {
+        font-size: 1.4rem;
+    }
+
+    .card .input-text {
+        max-width: 100%;
+    }
+
+    .card .name,
+    .card .email,
+    .card .telephone,
+    .card .message {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .card .btn-toSend {
+        font-size: 1.4rem;
+        max-width: 100%;
+    }
+
+    .card .mandatory-completion,
+    .card .required-fields {
+        font-size: 1.2rem;
+    }
+}
+
+@media(min-width: 768px) and (max-width:1023px) {
+    
+    main {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .info {
+        width: 100%;
+        max-width: 458px;
+        margin: 0 20px;
+    }
+
+    .info .title {
+        font-size: 1.8rem;
+    }
+
+    .info .doubts {
+        font-size: 1.3rem;
+    }
+
+    .card {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .card .input-text,
+    .card .btn-toSend {
+        font-size: 1.4rem;
+    }
+
+    .card .input-text {
+        max-width: 100%;
+    }
+
+    .card .name,
+    .card .email,
+    .card .telephone,
+    .card .message {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .card .btn-toSend {
+        font-size: 1.4rem;
+        max-width: 100%;
+    }
+
+    .card .mandatory-completion,
+    .card .required-fields {
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width: 767px) {
+
+    main {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .info {
+        width: 100%;
+        max-width: 458px;
+        margin: 0 20px;
+    }
+
+    .info .title {
+        font-size: 1.8rem;
+    }
+
+    .info .doubts {
+        font-size: 1.3rem;
+    }
+
+    .card {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .card .input-text,
+    .card .btn-toSend {
+        font-size: 1.4rem;
+    }
+
+    .card .input-text {
+        max-width: 100%;
+    }
+
+    .card .name,
+    .card .email,
+    .card .telephone,
+    .card .message {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .card .btn-toSend {
+        font-size: 1.4rem;
+        max-width: 100%;
+    }
+
+    .card .mandatory-completion,
+    .card .required-fields {
+        font-size: 1.2rem;
+    }
+}

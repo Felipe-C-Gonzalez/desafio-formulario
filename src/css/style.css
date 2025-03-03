@@ -73,6 +73,10 @@ main {
     color: hsl(0, 91%, 57%);
 }
 
+.card .mandatory-completion.show {
+    display: block;
+}
+
 .card .required-fields {
     width: 100%;
     max-width: 330px;
